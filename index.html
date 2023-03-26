@@ -1,9 +1,8 @@
-<!-- HTML -->
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LP - New Year Countdown</title>
+    <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;800&display=swap"
       rel="stylesheet"
@@ -13,57 +12,33 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="container text-center">
-        <div class="col-md-12">
-          <h1 id="header" class="">New Year Countdown</h1>
+      <div class="heading">
+        <h3>Countdown Till</h3>
+        <h1>2024</h1>
+      </div>
+      <div class="countdown">
+        <div class="box">
+          <span class="num" id="day-box">00</span>
+          <span class="text">Days</span>
         </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="clock">
-            <div class="well top-pane">
-              <div id="days" class="num">00</div>
-            </div>
-            <div class="well bottom-pane">
-              <div id="days-text" class="text">Days</div>
-            </div>
-          </div>
+        <div class="box">
+          <span class="num" id="hr-box">00</span>
+          <span class="text">Hours</span>
         </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="clock">
-            <div class="well top-pane">
-              <div id="hours" class="num">00</div>
-            </div>
-            <div class="well bottom-pane">
-              <div id="hours-text" class="text">Hours</div>
-            </div>
-          </div>
+        <div class="box">
+          <span class="num" id="min-box">00</span>
+          <span class="text">Minutes</span>
         </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="clock">
-            <div class="well top-pane">
-              <div id="mins" class="num">00</div>
-            </div>
-            <div class="well bottom-pane">
-              <div id="mins-text" class="text">Minutes</div>
-            </div>
-          </div>
+        <div class="box">
+          <span class="num" id="sec-box">00</span>
+          <span class="text">Seconds</span>
         </div>
-        <div class="col-md-3 col-xs-6">
-          <div class="clock">
-            <div class="well top-pane">
-              <div id="secs" class="num">00</div>
-            </div>
-            <div class="well bottom-pane">
-              <div id="secs-text" class="text">Seconds</div>
-            </div>
-          </div>
-        </div>
-        <div id="info" class="small"></div>
       </div>
       <br><hr>
       <center> &copy;2022 | Designed by <b>Leonel Palma</b><center>
-        <br>
-        </div>
-        <!-- Script -->
-        <script src="script.js"></script>
+      <br>
+    </div>
+<!-- Script -->
+<script src="script.js"></script>
 </body>
 </html>
